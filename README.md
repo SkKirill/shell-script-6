@@ -81,3 +81,7 @@ user=$(whoami)
 echo "Начало записи в файл"
 ps -eo user:$max_len,pid,%cpu,%mem,vsz,rss,tty,stat,start,time,command | grep -v $user > text.txt 
 ```
+
+### git
+* Для работы над лабораторной испольовалась система контроля версий git
+* Была создана ветка для работы со вторым решением и после смерджена с мастером
