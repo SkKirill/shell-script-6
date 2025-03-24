@@ -1,0 +1,23 @@
+USER                 PID %CPU %MEM    VSZ   RSS TT       STAT  STARTED     TIME COMMAND
+root                   1  0.0  0.0  21508 12812 ?        Ss   23:05:52 00:00:01 /sbin/init
+root                   2  0.0  0.0   2776  1924 ?        Sl   23:05:52 00:00:00 /init
+root                   7  0.0  0.0   2776   132 ?        Sl   23:05:54 00:00:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root                  58  0.0  0.0  50356 16112 ?        S<s  23:05:55 00:00:00 /usr/lib/systemd/systemd-journald
+root                 101  0.0  0.0  24256  6284 ?        Ss   23:05:55 00:00:00 /usr/lib/systemd/systemd-udevd
+systemd-resolve      127  0.0  0.0  21452 11896 ?        Ss   23:05:56 00:00:00 /usr/lib/systemd/systemd-resolved
+systemd-timesync     131  0.0  0.0  91020  6548 ?        Ssl  23:05:56 00:00:00 /usr/lib/systemd/systemd-timesyncd
+root                 174  0.0  0.0   4236  2680 ?        Ss   23:05:56 00:00:00 /usr/sbin/cron -f -P
+messagebus           175  0.0  0.0   9620  5232 ?        Ss   23:05:56 00:00:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root                 182  0.0  0.0  17976  8208 ?        Ss   23:05:56 00:00:00 /usr/lib/systemd/systemd-logind
+root                 185  0.0  0.0 1756096 14032 ?       Ssl  23:05:56 00:00:00 /usr/libexec/wsl-pro-service -vv
+root                 196  0.0  0.0   3160  1108 hvc0     Ss+  23:05:56 00:00:00 /sbin/agetty -o -p -- \u --noclear --keep-baud - 115200,38400,9600 vt220
+root                 206  0.0  0.0   3116  1236 tty1     Ss+  23:05:56 00:00:00 /sbin/agetty -o -p -- \u --noclear - linux
+syslog               208  0.0  0.0 222508  7000 ?        Ssl  23:05:57 00:00:00 /usr/sbin/rsyslogd -n -iNONE
+root                 223  0.0  0.1 107008 22600 ?        Ssl  23:05:57 00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root                 296  0.0  0.0   2776   208 ?        Ss   23:05:59 00:00:00 /init
+root                 298  0.0  0.0   2776   208 ?        S    23:05:59 00:00:00 /init
+root                 309  0.0  0.0   6660  4620 pts/1    Ss   23:05:59 00:00:00 /bin/login -f
+root                 384  0.0  0.0   2776   212 ?        Ss   23:06:26 00:00:00 /init
+root                 385  0.0  0.0   2776   212 ?        S    23:06:26 00:00:00 /init
+root                4282  0.0  0.0   2784   212 ?        Ss   23:35:27 00:00:00 /init
+root                4283  0.0  0.0   2784   220 ?        S    23:35:27 00:00:00 /init
